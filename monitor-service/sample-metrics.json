@@ -1,0 +1,76 @@
+{
+  "timestamp":"2021/06/28 12:31:49",
+  "service": "sample-service",
+  "ipaddr": "127.0.0.1",
+  "port": 8080,
+  "metrics": {
+    "http.server.requests": {
+      "/demo/controller1/**": {
+        "GET": {
+          "SUCCESS": {
+            "COUNT": 3,
+            "TOTAL_TIME": 0.021742998,
+            "MAX": 0,
+            "baseUnit": "seconds"
+          },
+          "CLIENT_ERROR": {
+            "COUNT": 3,
+            "TOTAL_TIME": 0.010978272,
+            "MAX": 0,
+            "baseUnit": "seconds"
+          },
+          "SERVER_ERROR": {
+            "COUNT": 2,
+            "TOTAL_TIME": 0.004146815,
+            "MAX": 0,
+            "baseUnit": "seconds"
+          }
+        }
+      },
+      "/demo/controller2/**": {
+        "GET": {
+          "SUCCESS": {
+            "COUNT": 1,
+            "TOTAL_TIME": 0.001853494,
+            "MAX": 0,
+            "baseUnit": "seconds"
+          },
+          "CLIENT_ERROR": {
+            "COUNT": 2,
+            "TOTAL_TIME": 0.003987515,
+            "MAX": 0,
+            "baseUnit": "seconds"
+          },
+          "SERVER_ERROR": {
+            "COUNT": 4,
+            "TOTAL_TIME": 0.007573114,
+            "MAX": 0,
+            "baseUnit": "seconds"
+          }
+        }
+      },
+      "/demo/controller3/**": {
+        "GET": {
+          "SUCCESS": {
+            "COUNT": 3,
+            "TOTAL_TIME": 0.005414651,
+            "MAX": 0.002756647,
+            "baseUnit": "seconds"
+          },
+          "CLIENT_ERROR": {
+            "COUNT": 5,
+            "TOTAL_TIME": 0.005899098,
+            "MAX": 0.000769928,
+            "baseUnit": "seconds"
+          },
+          "SERVER_ERROR": {
+            "COUNT": 11,
+            "TOTAL_TIME": 0.021000419,
+            "MAX": 0.005866424,
+            "baseUnit": "seconds"
+          }
+        }
+      }
+    }
+  }
+}
